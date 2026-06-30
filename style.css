@@ -452,13 +452,25 @@ h2 {
     border-radius: 12px;
   }
   #navbar.show{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     right:0;
+    width: 50vw;
   }
  #open-sidebar-menu,#close-sidebar-menu{
   display: block;
  }
   .nav-links {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    right:0;
+    width: 60vw;
     gap: 10px;
+    height: 60vh;
   }
 
   .nav-links a {
